@@ -1,0 +1,14 @@
+inherit rubygem
+
+NAME="ruby-web-console"
+VERSION=2.1.2
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Rails debugging tool"
+DESCRIPTION="A debugging tool for your Ruby on Rails applications."
+
+ARCH=noarch
+
+PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_web_console_CONTENTS="${RUBYGEM_INSTDIR#/} ${RUBYGEM_SPEC#/}"
+ruby_web_console_doc_CONTENTS=${RUBYGEM_DOCDIR#/}
