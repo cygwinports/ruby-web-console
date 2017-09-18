@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-web-console"
-VERSION=2.3.0
+VERSION=3.3.1
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Rails debugging tool"
